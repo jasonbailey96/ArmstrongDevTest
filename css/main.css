@@ -1,0 +1,512 @@
+@font-face {
+    
+font-family: BebasNeueRegular;
+src: url('BebasNeueRegular.otf');
+    
+}
+
+@font-face {
+    
+font-family: BebasNeueBold;
+src: url('BEBASNEUEBOLD.ttf');
+    
+}
+
+@font-face {
+    
+font-family: Helvetica;
+src: url('HelveticaNeue.dfont');
+    
+}
+
+body{
+    
+width: 100%;
+height: auto;
+    
+}
+
+section {
+    
+width: 100%;
+height: auto;
+    
+}
+
+nav {
+
+height: 150px;
+background-color: white;
+width: 100%;
+
+}
+
+.logo-style {
+    
+margin-left: 175px;
+
+}
+
+ul {
+    
+list-style-type: none;
+float: right;
+text-align: center;
+margin-top: 50px;
+margin-left: 50px;
+margin-right: 200px;
+    
+}
+
+li {
+    
+float: left;
+font-size: 18pt;
+font-family: BebasNeueRegular;
+    
+}
+
+li a {
+    
+display: inline;
+color: black;
+text-decoration: none;
+padding: 15px;
+
+}
+
+.banner-style {
+    
+width: 100%;
+float: none;
+    
+}
+
+.shop-now-style {
+    
+height: 400px;    
+width: 50%;
+float: left;
+    
+}
+
+.instructor-ranges-style {
+    
+height: 400px;    
+width: 50%;
+float: right;
+overflow: hidden;
+    
+}
+
+
+
+.mens-style {
+    
+height: 250px;    
+width: 25%;
+float: left;
+    
+}
+
+.womens-style {
+    
+height: 250px;    
+width: 25%;
+float: left;
+    
+}
+
+.coach-style {
+    
+height: 250px;    
+width: 25%;
+float: right;
+    
+}
+
+.equipment-style {
+    
+height: 250px;    
+width: 25%;
+float: right;
+    
+}
+
+h1 {
+    
+text-align: center;
+margin-top: 720px;
+font-family: BEBASNEUEBOLD;
+font-size: 3em;
+
+    
+}
+
+div.gallery {
+    
+float: left;    
+margin: 20px;
+width: 250px;
+    
+}
+
+div.gallery img {
+    
+width: 100%;
+height: auto;
+    
+}
+
+div.desc {
+    
+padding: 4px;
+text-align: center;
+    
+}
+
+h3 {
+    
+font-family: BEBASNEUEBOLD;
+    
+}
+
+h4 {
+    
+font-family: BebasNeueRegular;
+color: red;
+    
+}
+
+.contact-image-style {
+    
+width: 100%;
+
+    
+}
+
+.container {
+    
+position: relative;
+text-align: center;
+color: white;
+    
+}
+
+.container2 {
+    
+position: relative;
+text-align: left;
+color: white;
+    
+}
+
+.bebasregfont {
+    
+font-family: BebasNeueRegular;
+font-size: 70px;
+padding: 10px 10px 10px 10px;
+color: white;
+    
+}
+
+.bebasregfont2 {
+    
+font-family: BebasNeueRegular;
+font-size: 50px;
+padding: 10px 10px 10px 10px;
+font-weight: bold;
+color: white;
+    
+}
+
+.bebasbold {
+    
+font-family: BEBASNEUEBOLD;
+font-size: 50px;
+padding: 10px 10px 10px 10px;
+color: white;
+    
+}
+
+.bebasregfont3 {
+    
+font-family: BebasNeueRegular;
+font-size: 30px;
+padding: 10px 10px 10px 10px;
+color: white;
+    
+}
+
+.bottom-left {
+    
+position: absolute;
+bottom: 110px;
+left: 160px;
+    
+}
+
+div.transbox {
+    
+margin: 5px;
+background-color: red; 
+opacity: 0.6;
+filter: alpha(opacity=60); /* For IE8 and earlier */
+
+}
+
+div.transbox p {
+    
+font-weight: bold;  
+margin: 5px;
+font-family: BebasNeueRegular;
+font-size: 40px;
+padding: 10px 10px 10px 10px;
+color: white;
+    
+}
+
+.text {
+    
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+    
+}
+
+.name-style {
+    
+font-family: BebasNeueRegular;
+color: gainsboro;
+width: 230px;
+padding: 5px 5px 5px 5px;
+    
+}
+
+.message-style {
+    
+font-family: BebasNeueRegular;
+color: black;
+width: 480px;
+padding: 5px 5px 5px 5px;
+height: 100px;
+    
+}
+
+.button-style {
+    
+color: white;
+padding: 10px 10px 10px 10px;
+background-color: #E30513;
+border: none;
+width: 150px;
+    
+}
+
+.social-heading-style {
+    
+text-align: center;
+font-family: BEBASNEUEBOLD;
+font-size: 3em;
+    
+}
+
+footer {
+    
+margin-top: 290px;
+height: 300px;
+width: 100%;
+background-image: url(../img/BLACK-bkg-image.png);
+    
+}
+
+h5 {
+    
+font-family: BEBASNEUEBOLD;
+color: #E30513;
+font-size: 2em;
+    
+}
+
+.address-position {
+    
+padding-left: 100px;
+    
+}
+
+em {
+    
+color: white;
+font-family: Helvetica;
+font-size: 12px;
+text-decoration: none;
+font-style: normal;
+    
+}
+
+.column {
+    
+float: left;
+width: 200px;
+height: 300px;
+border-collapse: collapse;
+    
+}
+
+.row:after {
+    
+content: "";
+display: table;
+clear: both;
+
+}
+
+.list {
+    
+background-color: transparent;
+color: white;
+width: 125px;
+    
+}
+
+.container3 {
+    
+position: relative;
+text-align: center;
+color: white;
+    
+}
+
+.bottom-left2 {
+    
+position: absolute;
+top: 140px;
+text-align: center;
+left: 175px;
+    
+}
+
+.boxed {
+    
+border: 10px solid white;
+
+}
+
+.boxed2 {
+    
+border: 7px solid white;
+    
+}
+
+.bottom-left3 {
+    
+position: absolute;
+top: 140px;
+text-align: center;
+left: 740px;
+    
+}
+
+.bottom-left4 {
+    
+position: absolute;
+top: 500px;
+text-align: center;
+left: 90px;
+    
+}
+
+.bottom-left5 {
+    
+position: absolute;
+top: 500px;
+text-align: center;
+left: 410px;
+    
+}
+
+.bottom-left6 {
+    
+position: absolute;
+top: 500px;
+text-align: center;
+left: 1050px;
+    
+}
+
+.bottom-left7 {
+    
+position: absolute;
+top: 500px;
+text-align: center;
+left: 710px;
+    
+}
+
+.padding {
+    
+padding-left: 50px;
+padding-right: 50px;
+
+}
+
+.overlay {
+    
+position: absolute;
+bottom: 100%;
+left: 0;
+right: 0;
+background-color: #008CBA;
+overflow: hidden;
+width: 100%;
+height:0;
+transition: .5s ease;
+    
+}
+
+.effectcontainer:hover .overlay {
+    
+bottom: 0;
+height: 100%;
+    
+}
+
+.blur img {
+    
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+
+}
+ 
+.blur img:hover {
+    
+-webkit-filter: blur(5px);
+    
+}
+
+.bw {
+    
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+
+}
+ 
+.bw:hover {
+    
+-webkit-filter: grayscale(100%);
+    
+}
+
+a:hover {
+    
+background-color: black;
+color: white;
+    
+}
